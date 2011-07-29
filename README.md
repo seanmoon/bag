@@ -19,7 +19,7 @@ To run tests, use
 
     $ rake jasmine
 
-Start by adding your application's code in `public/javascripts/application.js` and corresponding Jasmine tests in 'spec/javascripts/application_spec.js'
+Start by adding your application's code in `public/javascripts/application.js` and corresponding Jasmine tests in `spec/javascripts/application_spec.js`
 
 ## Included libaries
 
@@ -31,27 +31,27 @@ Start by adding your application's code in `public/javascripts/application.js` a
 
 ## Template file listing
 
-.
-├── Gemfile
-├── README
-├── Rakefile
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── javascripts
-│       ├── application.js
-│       └── vendor
-│           ├── backbone.js
-│           ├── jquery.js
-│           └── underscore.js
-└── spec
-    └── javascripts
-        ├── application_spec.js
-        ├── helpers
-        │   └── SpecHelper.js
-        └── support
-            ├── jasmine.yml
-            ├── jasmine_config.rb
-            └── jasmine_runner.rb
+    .
+    ├── Gemfile
+    ├── README
+    ├── Rakefile
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   └── javascripts
+    │       ├── application.js
+    │       └── vendor
+    │           ├── backbone.js
+    │           ├── jquery.js
+    │           └── underscore.js
+    └── spec
+        └── javascripts
+            ├── application_spec.js
+            ├── helpers
+            │   └── SpecHelper.js
+            └── support
+                ├── jasmine.yml
+                ├── jasmine_config.rb
+                └── jasmine_runner.rb
 
-7 directories, 14 files
+    7 directories, 14 files
