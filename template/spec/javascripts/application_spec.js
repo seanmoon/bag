@@ -1,0 +1,2 @@
+describe("application.js", function() {
+});

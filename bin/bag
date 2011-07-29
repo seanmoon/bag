@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+abort("Usage: bag your-app-name") if ARGV[0].nil?
+
+target_dir = File.join(Dir.pwd, ARGV[0])
+abort("error: #{target_dir} already exists") if File.exists?(target_dir)
+
+template_dir = File.join(File.dirname(File.expand_path(__FILE__)), '..', 'template')
+FileUtils.cp_r template_dir, target_dir, :verbose => true, :preserve => true
+
+readme = File.join(target_dir, 'README')
+puts File.read(readme)
